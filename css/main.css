@@ -188,6 +188,16 @@ header{
     margin-top:25px;
     text-align: center;
     font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+    height: 4.5vh;
+    line-height: 35px;
+    overflow-y: hidden;
+    position: relative;
+}
+#job-container p{
+    animation-name: scrollJob;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    transition: all ease-in-out 800ms;
 }
 .highlight{
     color: var(--scheme-yellow);
@@ -201,7 +211,7 @@ header{
     }
     #welcome-background{
         background-position: center;
-    background-size: 90vw;
+        background-size: 90vw;
     }
     #welcome-section{
         display: flex;
@@ -211,6 +221,43 @@ header{
     }
     #welcome-section #welcome-message h1,h3{
         margin: 20px;
-        line-height: 0.5vmax;
+        line-height: 1vh;
     }
+}
+
+@keyframes scrollJob{
+
+    0%{
+        display: block;
+        transform: translateY(0%);
+    }
+    20%{
+        transform: translateY(0%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    45%{
+        transform: translateY(-100%);
+    }
+    50%{    
+        transform: translateY(-200%);
+    }
+    70%{
+        transform: translateY(-200%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    95%{
+        transform: translateY(-300%);
+    }
+    99.99%{
+        transform: translateY(-400%);
+    }
+    100%{
+        transform: translateY(0%);
+        display: none;
+    }
+
 }
