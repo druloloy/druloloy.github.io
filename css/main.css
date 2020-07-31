@@ -159,8 +159,8 @@ header{
     height: 100%;
     width: 100%;
     background-image: url('../res/gradpic.jpg');
-    background-position: center;
-    background-size: 90vw;
+    background-position: left;
+    background-size: 100vh;
     background-repeat: no-repeat;
     opacity: 0;
     transition: 1s ease-in-out;
@@ -199,13 +199,18 @@ header{
     #navbar ul{
         display: flex;
     }
+    #welcome-background{
+        background-position: center;
+    background-size: 90vw;
+    }
     #welcome-section{
         display: flex;
         text-align: left;
         justify-content: start;
-        font-size: 2vmax;
+        font-size: 1.5vmax;
     }
-    #welcome-section #welcome-message{
+    #welcome-section #welcome-message h1,h3{
         margin: 20px;
+        line-height: 0.5vmax;
     }
 }
