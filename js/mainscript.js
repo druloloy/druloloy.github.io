@@ -2,7 +2,24 @@ var burger = $("#burger-nav");
 var mobile_nav = $("#mobile-nav");
 var close = $("#close");
 
+var bgheader = $("#welcome-background");
+
 $(document).ready(function(){
+
+
+    bgheader.css({
+        "opacity":"1",
+        "background-position":"left"
+    });
+
+
+
+
+
+
+
+
+
     burger.click(function(){
         burger.hide();
         close.show();
@@ -18,3 +35,4 @@ $(document).ready(function(){
         });
     });
 });
+
