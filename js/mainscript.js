@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     bgheader.css({
         "opacity":"1",
-        "background-position":"left"
+        "background-position":"right"
     });
 
 

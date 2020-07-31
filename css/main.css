@@ -22,7 +22,7 @@ html, body{
 #navbar{
     position: absolute;
     top:0;
-    z-index:1;
+    z-index:999;
     max-height: 75px;
     width: 100%;
     background-color: rgba(0,0,0,.2);
@@ -78,7 +78,7 @@ html, body{
     background-color:  var(--scheme-yellow);
 }
 #mobile-nav{
-    z-index: 1;
+    z-index: 0999;
     position: absolute;
     height: 0;
     top: 0;
@@ -99,7 +99,6 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 #mobile-nav .links-mobile{
     transition: ease-in-out 150ms;
@@ -149,19 +148,26 @@ header{
     height: 100%;
     width:100%;
 }
+#background-gradient{
+    background: linear-gradient(135deg, #000,#000,#211,#211);
+    height:100%;
+    width:100%;
+    position: absolute;
+}
 #welcome-background{
+    z-index: 1;
     height: 100%;
     width: 100%;
     background-image: url('../res/gradpic.jpg');
-    background-position: right;
-    background-size: 100vh;
+    background-position: center;
+    background-size: 90vw;
     background-repeat: no-repeat;
-    background-color: var(--scheme-black);
     opacity: 0;
     transition: 1s ease-in-out;
     filter: brightness(35%) grayscale(100%);;
 }
 #welcome-section{
+    z-index:2;
     position: absolute;
     top:0;
     display: flex;
@@ -192,5 +198,14 @@ header{
     }
     #navbar ul{
         display: flex;
+    }
+    #welcome-section{
+        display: flex;
+        text-align: left;
+        justify-content: start;
+        font-size: 2vmax;
+    }
+    #welcome-section #welcome-message{
+        margin: 20px;
     }
 }
