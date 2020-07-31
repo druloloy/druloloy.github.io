@@ -5,6 +5,7 @@
     --scheme-yellow: hsl(60, 100%, 47%);
     --scheme-black: hsl(0,0%,0%);
     --scheme-plain: #f1f1f1;
+    color-scheme: dark;
 }
 
 *{
