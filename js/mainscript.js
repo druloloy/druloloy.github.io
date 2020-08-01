@@ -28,8 +28,6 @@ $(document).ready(function(){
             tooltip[i].style.top = e.pageY + 'px';
         }
     }
-
-
     function openNav(){
         burger.hide();
         close.show();
@@ -46,17 +44,5 @@ $(document).ready(function(){
     burger.click(openNav);
     close.click(closeNav);
 
-    function switchPage(page_link){
-        var new_page = page_link.getAttribute("href");
-        console.log(new_page);
-    }
-    
-    nav_links[0].click(function(){
-        console.log("hello");
-    });
-
-    for(var i = nav_links.length; i--;){
-        
-    }
 });
 
