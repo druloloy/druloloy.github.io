@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="js/jquery-3x.js"></script>
 </head>
 <body>
     <nav id="navbar">
@@ -30,9 +32,9 @@
                 </div>
             </div>
             <ul id="nav-links-mobile">
-                <a src="#whoami" class="links-mobile">WhoAmI</a>
-                <a src="#projects" class="links-mobile">Projects</a>
-                <a src="#contacts" class="links-mobile">Contact</a>
+                <a href="#whoami" id="link-whoami" class="links-mobile">WhoAmI</a>
+                <a href="#projects" id="link-projects" class="links-mobile">Projects</a>
+                <a href="#contacts" id="link-contacts" class="links-mobile">Contact</a>
             </ul>
         </nav>
 
@@ -56,10 +58,32 @@
         </div>
     </header>
     <main>
+        <div id="main-background"></div>
         <div id="projects">
-            <div class="project-tile"></div>
-            <div class="project-tile"></div>
-            <div class="project-tile"></div>
+            <div class="project-tile">
+                <a class="project-link" href="#"><img src="res/welcome-background.jpg" alt="" class="project-img"></a>
+                <img src="res/welcome-background.jpg" class="project-tooltip">
+            </div>
+            <div class="project-tile">
+                <a class="project-link" href="#"><img src="res/welcome-background.jpg" alt="" class="project-img"></a>
+                <img src="res/welcome-background.jpg" class="project-tooltip">
+            </div>
+            <div class="project-tile">
+                <a class="project-link" href="#"><img src="res/welcome-background.jpg" alt="" class="project-img"></a>
+                <img src="res/welcome-background.jpg" class="project-tooltip">
+            </div>
+            <div class="project-tile">
+                <a class="project-link" href="#"><img src="res/welcome-background.jpg" alt="" class="project-img"></a>
+                <img src="res/welcome-background.jpg" class="project-tooltip">
+            </div>
+            <div class="project-tile">
+                <a class="project-link" href="#"><img src="res/welcome-background.jpg" alt="" class="project-img"></a>
+                <img src="res/welcome-background.jpg" class="project-tooltip">
+            </div>
+            <div class="project-tile">
+                <a class="project-link" href="#"><img src="res/welcome-background.jpg" alt="" class="project-img"></a>
+                <img src="res/welcome-background.jpg" class="project-tooltip">
+            </div>
         </div>
     </main>
 

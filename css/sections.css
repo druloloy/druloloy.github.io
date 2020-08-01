@@ -1,0 +1,54 @@
+@import url('_configure.css');
+
+.active-page{
+    color: var(--scheme-plain);
+}
+
+main{
+    height:85vh;
+    width: 100%;
+    z-index: 99;
+    position: absolute;
+    bottom:0;
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: start;
+    align-items: center;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    visibility: hidden;
+}
+#projects::-webkit-scrollbar{
+    display: none;
+}
+#projects .project-tile{
+    margin: 10px 0;
+    min-height: 150px;
+    width: 250px;
+    background-color: #fff;
+    cursor: pointer;
+}
+#projects .project-tile .project-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: 300ms ease-in-out;
+}
+#projects .project-tile .project-img:hover{
+    filter: brightness(55%);
+}
+#projects .project-tooltip{
+    z-index: 99999;
+    width: 400px;
+    height: 250px;
+    margin: -60px -200px;
+    display: none;
+    position: absolute;
+}
+#projects .project-tile:hover .project-tooltip{
+    display: block;
+}

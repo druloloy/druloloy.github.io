@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap');
+
+:root{
+    --scheme-yellow: hsl(60, 100%, 47%);
+    --scheme-black: hsl(0,0%,0%);
+    --scheme-plain: #f1f1f1;
+}
+::-moz-selection{
+    background: #fff; 
+    color: #000;   
+}
+::selection{
+    background: #fff; 
+    color: #000;   
+}

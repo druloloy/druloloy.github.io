@@ -1,12 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap');
-
-:root{
-    --scheme-yellow: hsl(60, 100%, 47%);
-    --scheme-black: hsl(0,0%,0%);
-    --scheme-plain: #f1f1f1;
-    color-scheme: dark;
-}
+@import url('_configure.css');
+@import url('sections.css');
 
 *{
     padding: 0;
@@ -19,6 +12,7 @@ html, body{
     background-color: var(--scheme-plain);
     font-family: 'Open Sans','Trebechuet MS',sans-serif;
     color: var(--scheme-black);
+    overflow: hidden;
 }
 #navbar{
     position: absolute;
@@ -103,6 +97,8 @@ html, body{
 }
 #mobile-nav .links-mobile{
     transition: ease-in-out 150ms;
+    color: var(--scheme-black);
+    text-decoration: none;
 }
 #mobile-nav .links-mobile:hover{
     color: var(--scheme-plain);
@@ -204,11 +200,27 @@ header{
     color: var(--scheme-yellow);
 }
 @media only screen and (min-width:600px){
+    #mobile-nav{
+        display: none;
+    }
+
     #burger-nav{
         display: none;
     }
     #navbar ul{
         display: flex;
+        color: var(--scheme-plain);
+        font-family: 'Roboto Mono','Courier New', Courier, monospace;
+        margin: 10px
+    }
+    #navbar ul a{
+        height: fit-content;
+        margin:5px;
+        cursor: pointer;
+    }
+    #navbar ul a:hover{
+        background-color: #fff;
+        color: #000;
     }
     #welcome-background{
         background-position: center;
