@@ -51,7 +51,7 @@ $(document).ready(function(){
         console.log(new_page);
     }
     
-    nav_links[1].click(function(){
+    nav_links[0].click(function(){
         console.log("hello");
     });
 

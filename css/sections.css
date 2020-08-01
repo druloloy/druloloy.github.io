@@ -1,7 +1,9 @@
 @import url('_configure.css');
 
-.active-page{
-    color: var(--scheme-plain);
+.active-link{
+    color: var(--scheme-plain) !important;
+    pointer-events: none;
+    cursor: default;
 }
 
 main{
