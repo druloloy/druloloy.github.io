@@ -3,8 +3,6 @@ var mobile_nav = $("#mobile-nav");
 var close = $("#close");
 
 var bgheader = $("#welcome-background");
-var tooltip = document.querySelectorAll(".project-tooltip")
-
 // pages
 var main_page = $("#welcome-section");
 var project_page = $("#projects");
@@ -23,14 +21,6 @@ $(document).ready(function(){
         "background-position":"right"
     });
 
-    document.addEventListener('mousemove',toolTip, false);
-
-    function toolTip(e){
-        for(var i = tooltip.length;i--;){
-            tooltip[i].style.left = e.pageX + 'px';
-            tooltip[i].style.top = e.pageY + 'px';
-        }
-    }
     function openNav(){
         burger.hide();
         close.show();
