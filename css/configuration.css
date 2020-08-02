@@ -14,3 +14,32 @@
     background: #fff; 
     color: #000;   
 }
+
+.active-link{
+    color: var(--scheme-plain) !important;
+    pointer-events: none;
+    cursor: default;
+}
+.active-page{
+    visibility: visible !important;
+}
+.highlight{
+    color: var(--scheme-yellow);
+}
+.highlight-mono{
+    background-color: #fff;
+    color: var(--scheme-black);
+    height: min-content;
+    width: min-content; 
+    font-family: 'Roboto Mono','Courier New', Courier, monospace;
+}
+.highlight-mono-light{
+    background-color: black;
+    color: var(--scheme-plain);
+    height: min-content;
+    width: min-content; 
+    font-family: 'Roboto Mono','Courier New', Courier, monospace;
+}
+.desc{
+    margin: 10vh 15vw;
+}

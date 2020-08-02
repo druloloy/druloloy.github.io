@@ -12,7 +12,6 @@ html, body{
     background-color: var(--scheme-plain);
     font-family: 'Open Sans','Trebechuet MS',sans-serif;
     color: var(--scheme-black);
-    overflow: hidden;
 }
 #navbar{
     position: absolute;
@@ -33,11 +32,6 @@ html, body{
 #navbar ul{
     display: none;
 }
-#navbar ul .links{
-    text-decoration: none;
-    list-style-type: none;
-}
-
 #burger-nav{
     position: absolute;
     right:0;
@@ -140,7 +134,7 @@ html, body{
 }
 
 header{
-    position: absolute;
+    position: relative;
     top: 0;
     height: 100%;
     width:100%;
@@ -152,7 +146,6 @@ header{
     position: absolute;
 }
 #welcome-background{
-    z-index: 1;
     height: 100%;
     width: 100%;
     background-image: url('../res/gradpic.jpg');
@@ -161,7 +154,8 @@ header{
     background-repeat: no-repeat;
     opacity: 0;
     transition: 1s ease-in-out;
-    filter: brightness(35%) grayscale(100%);;
+    filter: brightness(35%) grayscale(100%);
+    box-shadow: 0px -150px 100px -20px black inset;
 }
 #welcome-section{
     z-index:2;
@@ -173,6 +167,7 @@ header{
     color:var(--scheme-plain);
     height: 100%;
     width:100%;
+    visibility: hidden;
 }
 
 #welcome-section h1,H3{
@@ -196,9 +191,6 @@ header{
     animation-duration: 8s;
     transition: all ease-in-out 800ms;
 }
-.highlight{
-    color: var(--scheme-yellow);
-}
 @media only screen and (min-width:600px){
     #mobile-nav{
         display: none;
@@ -210,15 +202,23 @@ header{
     #navbar ul{
         display: flex;
         color: var(--scheme-plain);
+        flex-direction: column;
         font-family: 'Roboto Mono','Courier New', Courier, monospace;
-        margin: 10px
+        position: fixed;
+        top:20vh;
+        right:0;
+        background-color: rgba(0,0,0,.8);
     }
     #navbar ul a{
         height: fit-content;
         margin:5px;
         cursor: pointer;
+        text-decoration: none;
+        list-style-type: none;
+        color: var(--scheme-plain);
     }
     #navbar ul a:hover{
+        height: min-content;
         background-color: #fff;
         color: #000;
     }
