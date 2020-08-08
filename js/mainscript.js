@@ -16,6 +16,7 @@ var nav_links = document.querySelector(".links-mobile");
 
 $(document).ready(function(){
 
+    alert("Test: Project Section ERROR_IN_PROJECT_TILES");
     bgheader.css({
         "opacity":"1",
         "background-position":"right"
