@@ -64,7 +64,7 @@ main{
 }
 #projects .project-tile{
     margin: 20px 0;
-    height: 100vh;    
+    height: auto;    
     width: 80%;
     background-color: #fff;
     cursor: pointer;
