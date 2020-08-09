@@ -81,4 +81,34 @@ main{
 #projects .project-tile .project-img:hover  #projects .project-tile{
     opacity: 1;
 }
-    
+
+
+
+#contacts{
+    height: 100vh;
+    width:100%;
+    transition: all ease 500ms;;
+    background-color: var(--scheme-black);
+    display: flex;
+    padding: 2em
+}
+#message-section h1{
+    color: var(--scheme-plain);
+    font-weight: 900;
+    font-family: 'Raleway','Trebuchet MS'sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+#contact-section{
+    display: flex;
+    flex-direction: column;
+    height: 50%; width:100%;
+    margin: auto;
+    background: palegoldenrod;
+}
+.contact-container{
+    flex: 1 1 200px;
+    background: var(--scheme-plain);
+}
+footer{
+}

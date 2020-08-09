@@ -19,7 +19,6 @@ html, body{
     z-index:999;
     max-height: 75px;
     width: 100%;
-    background-color: rgba(0,0,0,.2);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -158,38 +157,38 @@ header{
     box-shadow: 0px -150px 100px -20px black inset;
 }
 #welcome-section{
-    z-index:2;
     position: absolute;
-    top:0;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     color:var(--scheme-plain);
     height: 100%;
     width:100%;
-    visibility: hidden;
 }
 
 #welcome-section h1,H3{
     font-family: 'Raleway','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 10px;
     text-transform: uppercase;
-    line-height: 30px;
 }
 #welcome-section #job{
-    margin-top:25px;
+    margin: 5vh 50px;
     text-align: center;
     font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
     height: 4.5vh;
-    line-height: 35px;
     overflow-y: hidden;
     position: relative;
+    border-left: 3px solid var(--scheme-plain);
+
 }
 #job-container p{
     animation-name: scrollJob;
     animation-iteration-count: infinite;
     animation-duration: 8s;
     transition: all ease-in-out 800ms;
+    font-size: 100%;
+    line-height: 35px;
 }
 @media only screen and (min-width:600px){
     #mobile-nav{
@@ -234,7 +233,7 @@ header{
     }
     #welcome-section #welcome-message h1,h3{
         margin: 20px;
-        line-height: 1vh;
+        line-height: 2vh;
     }
 }
 
