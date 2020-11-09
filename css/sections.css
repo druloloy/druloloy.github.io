@@ -83,9 +83,9 @@ main{
 }
 
 
-
+/*
 #contacts{
-    height: 100vh;
+    height: 50vh;
     width:100%;
     transition: all ease 500ms;;
     background-color: var(--scheme-black);
@@ -101,14 +101,14 @@ main{
 }
 #contact-section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 50%; width:100%;
     margin: auto;
-    background: palegoldenrod;
+    height: 50%;
+    width: auto;
 }
 .contact-container{
     flex: 1 1 200px;
-    background: var(--scheme-plain);
+    color: var(--scheme-plain)
 }
-footer{
-}
+*/
