@@ -8,6 +8,9 @@
     <title>DruCreations</title>
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="js/jquery-3x.js"></script>
@@ -19,7 +22,7 @@
         <ul id="nav-links">
             <a href="#whoami" class="links">WhoAmI</a>
             <a href="#projects" class="links">Projects</a>
-           <!-- <a href="#contacts" class="links">Contact</a>-->
+            <a href="#contacts" class="links">Contact</a> 
         </ul>
 
         <div id="burger-nav">
@@ -34,7 +37,7 @@
             <ul id="nav-links-mobile">
                 <a href="#whoami" id="link-whoami" class="links-mobile active-link">WhoAmI</a>
                 <a href="#projects" id="link-projects" class="links-mobile">Projects</a>
-                <!--<a href="#contacts" id="link-contacts" class="links-mobile">Contact</a>-->
+                <a href="#contacts" id="link-contacts" class="links-mobile">Contact</a>
             </ul>
         </nav>
 
@@ -70,9 +73,9 @@
         <div id="projects">
             <h1 id="personal-projects"><span class="highlight-mono-light">Personal</span> Projects</h1>
             <div id="projects-container">
-                <!--<div class="project-tile">
-                    <a target="_blank" class="project-link" href="https://druloloy.github.io/TodoList"><img src="res/projects/lol.png" alt="TodoList with React" class="project-img"></a>
-                </div>-->
+                <div class="project-tile">
+                    <a target="_blank" class="project-link" href="https://druloloy.github.io/TodoList"><img src="res/projects/react.png" alt="TodoList with React" class="project-img"></a>
+                </div>
                 <div class="project-tile">
                     <a target="_blank" class="project-link" href="https://druloloy.github.io/environtech/"><img src="res/projects/environtech.png" alt="Environtech" class="project-img"></a>
                 </div>
@@ -84,15 +87,24 @@
             <p class="desc">These aren't mobile-friendly, you might end up with ruptured websites while using your phone.</p>
         </div>
 
-        <!--
+
         <div id="contacts">
             <div id="message-section">
                 <h1>Want to <span class="highlight"> work</span> with me?</span></h1>
             </div>
             <div id="contacts-section">
-               <a href="https://www.facebook.com/druloloy" class="contact-container">Facebook</a>
-               <a href="https://www.github.com/druloloy" class="contact-container">Github</a>
-               <p class="contact-container">Email: dru.loloy@gmail.com</p>
+               <div class="contact-container">
+                <i class="fab fa-facebook-square"></i>
+                <a target="_blank" href="https://www.facebook.com/druloloy">Facebook</a>
+               </div>
+               <div class="contact-container">
+                <i class="fab fa-github"></i>
+                <a target="_blank" href="https://github.com/druloloy">Github</a>
+               </div>
+               <div class="contact-container">
+                <i class="far fa-envelope-open"></i>
+                   <p>dru.loloy@gmail.com</p>
+               </div>
             </div>
         </div>
     </main>
@@ -102,8 +114,6 @@
 
         </form>
     </footer> 
-
--->
         <script src="js/mainscript.js"></script>
 </body>
 </html>
