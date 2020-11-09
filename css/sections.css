@@ -83,14 +83,15 @@ main{
 }
 
 
-/*
+
 #contacts{
     height: 50vh;
     width:100%;
     transition: all ease 500ms;;
     background-color: var(--scheme-black);
     display: flex;
-    padding: 2em
+    padding: 2em;
+    flex-direction: column;
 }
 #message-section h1{
     color: var(--scheme-plain);
@@ -99,16 +100,30 @@ main{
     font-size: 55px;
     text-transform: uppercase;
 }
+
 #contact-section{
     display: flex;
     flex-direction: row;
-    height: 50%; width:100%;
-    margin: auto;
     height: 50%;
-    width: auto;
+    width: 100%;
+    margin: 2rem;
 }
 .contact-container{
-    flex: 1 1 200px;
-    color: var(--scheme-plain)
+    color: var(--scheme-plain);
+    text-decoration: none;
+    display: flex;
+    width: 30%;
+    margin: 1rem;
+    flex-direction: row;
+    justify-content: ;
+    text-align: left;
 }
-*/
+.contact-container a{
+    text-decoration: none;
+    color: var(--scheme-plain);
+
+}
+.contact-container i {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
