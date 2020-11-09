@@ -85,7 +85,7 @@ main{
 
 
 #contacts{
-    height: 50vh;
+    height: 60vh;
     width:100%;
     transition: all ease 500ms;;
     background-color: var(--scheme-black);
@@ -115,7 +115,6 @@ main{
     width: 30%;
     margin: 1rem;
     flex-direction: row;
-    justify-content: ;
     text-align: left;
 }
 .contact-container a{
