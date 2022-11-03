@@ -1,0 +1,323 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+:root {
+    --cs-main: #fbfbfb;
+    --cs-secondary: #222222;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cs-secondary);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--cs-main);
+    color: var(--cs-secondary);
+}
+
+.blog-banner{
+    height: 60%;
+    width:100%;
+}
+
+.blog-banner-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0 25px 25px;
+    object-fit: cover;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    background-image: url('../assets/images/window-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+.blog-container{
+    height: auto;
+    width: 100%;
+    padding: 10% 10%;
+}
+
+.blog-title{
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 95%;
+    margin-bottom: 1rem;
+}
+
+.blog-authors{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    font-style: italic;
+}
+
+.blog-date{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+
+.blog-toc-list{
+    padding: 1rem;
+    list-style-type: none;
+    line-height: 1.5rem;
+}
+
+.blog-toc-item{
+    margin-bottom: .5rem;
+}
+
+.blog-toc{
+    margin-top: 2rem;
+}
+
+.blog-toc-item a{
+    color: var(--cs-secondary);
+    text-decoration: underline;
+    transition: all 300ms ease-in-out;
+}
+
+.blog-toc-item a:hover, .blog-toc-item a:focus{
+    color: var(--cs-secondary);
+    opacity: 75%;
+}
+
+.blog-article{
+    margin-top: 2rem;
+}
+
+.blog-article .blog-article-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.blog-article .blog-article-content {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    line-height: 150%;
+}
+
+.blog-image-divider{
+    width: 100%;
+    height: 200px;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: fill;
+    background-color: var(--cs-primary);
+}
+
+.divider-image-1{
+    background-image: url('../assets/images/road-alone.jpg');
+}
+.divider-image-2{
+    background-image: url('../assets/images/youth.jpg');
+}
+
+.blog-gallery-container{
+    width: 100%;
+    height: auto;
+    /* center div inside */
+    padding: 5%;
+}
+
+.blog-gallery{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.blog-gallery-image-container{
+    width: 150px;
+    height: 150px;
+}
+
+.blog-gallery-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.blog-gallery-image-container img:hover{
+    cursor: pointer;
+}
+
+.blog-image-modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    padding: 10%;
+}
+
+.blog-image-modal-visible{
+    display: flex;
+}
+
+.blog-image-modal img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-hidden{
+    display: none;
+}
+
+.blog-gallery-load-more-btn{
+    width: 100%;
+    height: 50px;
+    background-color: var(--cs-secondary);
+    color: var(--cs-main);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    transition: all 300ms ease-in-out;
+}
+.button-hidden{
+    display: none;
+}
+
+.blog-line-divider{
+    width: 100%;
+    height: 2px;
+    background-color: var(--cs-secondary);
+    margin: 2rem 0;
+}
+
+.blog-metadata{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.blog-metadata-authors{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.blog-metadata-authors-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.blog-metadata-authors-list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.blog-metadata-authors-list-item{
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.125);
+    border-radius: 25px;
+    background-color: var(--cs-secondary);
+    color: var(--cs-main);
+}
+.blog-metadata-authors-list-item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: var(--cs-main);
+    border: 3px solid #d8ff4b;
+}
+
+.blog-metadata-authors-list-item-name{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.blog-metadata-authors-list-item-role{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.blog-metadata-authors-list-item-socials{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    font-weight: 700;
+}
+.blog-metadata-authors-list-item-socials a{
+    color: var(--cs-main);
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+    font-size: 2rem;
+}
+
+.blog-footer{
+    width: 100%;
+    height: 100px;
+    background-color: var(--cs-secondary);
+    color: var(--cs-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+
+@media only screen and (max-width: 600px) {
+}
