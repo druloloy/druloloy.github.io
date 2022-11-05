@@ -34,5 +34,4 @@ loadMoreButton.addEventListener('click', () => {
     });
 
     loadMoreButton.classList.add('button-hidden');
-
 });
