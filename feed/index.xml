@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>druniverse</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Universe inside my head</description>
+	<lastBuildDate>Sat, 27 May 2023 18:44:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.3</generator>
+	<item>
+		<title>Tasker</title>
+		<link>/tasker/</link>
+					<comments>/tasker/#respond</comments>
+		
+		<dc:creator><![CDATA[druloloy]]></dc:creator>
+		<pubDate>Sat, 27 May 2023 18:18:17 +0000</pubDate>
+				<category><![CDATA[projects]]></category>
+		<guid isPermaLink="false">/?p=661</guid>
+
+					<description><![CDATA[Existing task taking applications are always been reminding us when a task should start but always forget to remind us when it must be over. Introducing Tasker, remember your boundaries.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="661" class="elementor elementor-661">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-8e74500 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8e74500" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b77c904" data-id="b77c904" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ccfc4de elementor-widget elementor-widget-heading" data-id="ccfc4de" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.11.3 - 07-03-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default"><a href="/wordpress/#projects"><i class="fa-solid fa-caret-left"></i> Back</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-38e8e2f elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="38e8e2f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aa5b863" data-id="aa5b863" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-1a3c831 elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1a3c831" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wide">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-dd77a0d" data-id="dd77a0d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6d0a315 elementor-widget elementor-widget-heading" data-id="6d0a315" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tasker <div class="badge bg-primary rounded-pill">NEW</div></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7279298 elementor-widget elementor-widget-heading" data-id="7279298" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Java | Android</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1f003e0 elementor-widget elementor-widget-text-editor" data-id="1f003e0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.11.3 - 07-03-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				Existing task taking applications are always been reminding us when a task should start but always forget to remind us when it must be over. Introducing <b>Tasker</b>, remember your boundaries. 						</div>
+				</div>
+				<div class="elementor-element elementor-element-4872a04 elementor-widget elementor-widget-text-editor" data-id="4872a04" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Check this project here:
+<div class="d-flex flex-column p-2"><a href="https://github.com/druloloy/tasker/releases/tag/alpha-releases" target="_blank" rel="noopener"><i class="fa-brands fa-android"></i> APK</a>
+<a href="https://github.com/druloloy/tasker" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a></div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-9581318" data-id="9581318" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a91f98e elementor-widget elementor-widget-image" data-id="a91f98e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.11.3 - 07-03-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>													<a href="/wp-content/uploads/2022/07/tasker-scaled.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="tasker-app" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6Mzk0LCJ1cmwiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3dvcmRwcmVzc1wvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMlwvMDdcL3Rhc2tlci1zY2FsZWQuanBnIn0%3D">
+							<img decoding="async" width="800" height="569" src="/wp-content/uploads/2022/07/tasker-1024x728.jpg" class="attachment-large size-large wp-image-394" alt="" srcset="/wp-content/uploads/2022/07/tasker-1024x728.jpg 1024w, /wp-content/uploads/2022/07/tasker-300x213.jpg 300w, /wp-content/uploads/2022/07/tasker-768x546.jpg 768w, /wp-content/uploads/2022/07/tasker-1536x1092.jpg 1536w, /wp-content/uploads/2022/07/tasker-2048x1456.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/tasker/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Quotile</title>
+		<link>/quotile/</link>
+					<comments>/quotile/#respond</comments>
+		
+		<dc:creator><![CDATA[druloloy]]></dc:creator>
+		<pubDate>Sat, 27 May 2023 18:15:49 +0000</pubDate>
+				<category><![CDATA[projects]]></category>
+		<guid isPermaLink="false">/?p=656</guid>
+
+					<description><![CDATA[Quotile is a minimalistic random quote generator powered by quotable.io. and made with create-react-app.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="656" class="elementor elementor-656">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-1e9d75c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1e9d75c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6d1c876" data-id="6d1c876" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7ada501 elementor-widget elementor-widget-heading" data-id="7ada501" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="/wordpress/#projects"><i class="fa-solid fa-caret-left"></i> Back</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c19c6e2 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c19c6e2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-877371d" data-id="877371d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-92f7c5a elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="92f7c5a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wide">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d8f83f9" data-id="d8f83f9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5135603 elementor-widget elementor-widget-heading" data-id="5135603" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Quotile</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f40ddef elementor-widget elementor-widget-heading" data-id="f40ddef" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Node.js | React | SCSS</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a4a6360 elementor-widget elementor-widget-text-editor" data-id="a4a6360" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<b>Quotile</b> is a minimalistic random quote generator powered by quotable.io. and made with create-react-app.						</div>
+				</div>
+				<div class="elementor-element elementor-element-1924789 elementor-widget elementor-widget-text-editor" data-id="1924789" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Check this project here:
+<div class="d-flex flex-column p-2"><a href="https://druloloy.github.io/quotile" target="_blank" rel="noopener"><i class="fa-solid fa-globe"></i> Live</a>
+<a href="https://github.com/druloloy/quotile" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a></div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-cf1768e" data-id="cf1768e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2d6841f elementor-widget elementor-widget-image" data-id="2d6841f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-02-25-19-Quotile.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="quotile-project" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6Mzg3LCJ1cmwiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3dvcmRwcmVzc1wvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMlwvMDdcL1NjcmVlbnNob3QtMjAyMi0wNy0xMS1hdC0wMi0yNS0xOS1RdW90aWxlLnBuZyJ9">
+							<img decoding="async" width="800" height="381" src="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-02-25-19-Quotile-1024x488.png" class="attachment-large size-large wp-image-387" alt="quotile-project" srcset="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-02-25-19-Quotile-1024x488.png 1024w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-02-25-19-Quotile-300x143.png 300w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-02-25-19-Quotile-768x366.png 768w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-02-25-19-Quotile.png 1366w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/quotile/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pet Paradise</title>
+		<link>/pet-paradise/</link>
+					<comments>/pet-paradise/#respond</comments>
+		
+		<dc:creator><![CDATA[druloloy]]></dc:creator>
+		<pubDate>Sat, 27 May 2023 18:14:00 +0000</pubDate>
+				<category><![CDATA[projects]]></category>
+		<guid isPermaLink="false">/?p=651</guid>
+
+					<description><![CDATA[Pet Paradise is a social web application where pet owners can interact under their pet profile and find a nearby clinic.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="651" class="elementor elementor-651">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-e59ba59 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e59ba59" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-feb2ddb" data-id="feb2ddb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7abb2cc elementor-widget elementor-widget-heading" data-id="7abb2cc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="/wordpress/#projects"><i class="fa-solid fa-caret-left"></i> Back</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8501b77 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8501b77" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-db108a3" data-id="db108a3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-efb4c56 elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="efb4c56" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wide">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-964f854" data-id="964f854" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-347db49 elementor-widget elementor-widget-heading" data-id="347db49" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Pet Paradise <div class="badge bg-primary rounded-pill">NEW</div></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-dd18fcf elementor-widget elementor-widget-heading" data-id="dd18fcf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">ASP.NET | Bootstrap 5 | JavaScript | JQuery | MS SQL Server </h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6e52cf0 elementor-widget elementor-widget-text-editor" data-id="6e52cf0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<b>Pet Paradise</b> is a social web application where pet owners can interact under their pet profile and find a nearby clinic.						</div>
+				</div>
+				<div class="elementor-element elementor-element-5aafcfd elementor-widget elementor-widget-text-editor" data-id="5aafcfd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Check this project here:
+<div class="d-flex flex-column p-2"><a href="https://petparadise.somee.com/" target="_blank"><i class="fa-solid fa-globe"></i> Live</a>
+<a href="https://github.com/druloloy/pet-paradise" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-1a9f985" data-id="1a9f985" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8572878 elementor-widget elementor-widget-image" data-id="8572878" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-23-49-Feeds.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="petparadise" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MzkzLCJ1cmwiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3dvcmRwcmVzc1wvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMlwvMDdcL1NjcmVlbnNob3QtMjAyMi0wNy0xMS1hdC0yMi0yMy00OS1GZWVkcy5wbmcifQ%3D%3D">
+							<img decoding="async" width="800" height="381" src="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-23-49-Feeds-1024x488.png" class="attachment-large size-large wp-image-393" alt="" srcset="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-23-49-Feeds-1024x488.png 1024w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-23-49-Feeds-300x143.png 300w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-23-49-Feeds-768x366.png 768w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-23-49-Feeds.png 1366w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/pet-paradise/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>DruPiler</title>
+		<link>/drupiler/</link>
+					<comments>/drupiler/#respond</comments>
+		
+		<dc:creator><![CDATA[druloloy]]></dc:creator>
+		<pubDate>Sat, 27 May 2023 18:11:00 +0000</pubDate>
+				<category><![CDATA[projects]]></category>
+		<guid isPermaLink="false">/?p=646</guid>
+
+					<description><![CDATA[DruPiler is a web app provides a solution for live compilation of Markdown language.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="646" class="elementor elementor-646">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-27e9505 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="27e9505" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2390fbb" data-id="2390fbb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-661422c elementor-widget elementor-widget-heading" data-id="661422c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="/wordpress/#projects"><i class="fa-solid fa-caret-left"></i> Back</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7f1bff4 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f1bff4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-72c83d6" data-id="72c83d6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-a3ef275 elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a3ef275" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wide">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-913b008" data-id="913b008" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f0836b8 elementor-widget elementor-widget-heading" data-id="f0836b8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">DruPiler</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-328de8a elementor-widget elementor-widget-heading" data-id="328de8a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Node.js | React | SCSS</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5430f32 elementor-widget elementor-widget-text-editor" data-id="5430f32" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							DruPiler is a web app provides a solution for live compilation of Markdown language.						</div>
+				</div>
+				<div class="elementor-element elementor-element-2693a48 elementor-widget elementor-widget-text-editor" data-id="2693a48" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Check this project here:
+<div class="d-flex flex-column p-2"><a href="https://druloloy.github.io/markdown-previewer" target="_blank" rel="noopener"><i class="fa-solid fa-globe"></i> Live</a>
+<a href="https://github.com/druloloy/markdown-previewer" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a></div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-64b63a2" data-id="64b63a2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8f7d499 elementor-widget elementor-widget-image" data-id="8f7d499" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-21-01-22-Markdown-Previewer.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="DruPiler" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MzkxLCJ1cmwiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3dvcmRwcmVzc1wvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMlwvMDdcL1NjcmVlbnNob3QtMjAyMi0wNy0xMS1hdC0yMS0wMS0yMi1NYXJrZG93bi1QcmV2aWV3ZXIucG5nIn0%3D">
+							<img decoding="async" width="800" height="381" src="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-21-01-22-Markdown-Previewer-1024x488.png" class="attachment-large size-large wp-image-391" alt="" srcset="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-21-01-22-Markdown-Previewer-1024x488.png 1024w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-21-01-22-Markdown-Previewer-300x143.png 300w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-21-01-22-Markdown-Previewer-768x366.png 768w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-21-01-22-Markdown-Previewer.png 1366w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/drupiler/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>BeatPad</title>
+		<link>/beatpad/</link>
+					<comments>/beatpad/#respond</comments>
+		
+		<dc:creator><![CDATA[druloloy]]></dc:creator>
+		<pubDate>Sat, 27 May 2023 18:07:04 +0000</pubDate>
+				<category><![CDATA[projects]]></category>
+		<guid isPermaLink="false">/?p=640</guid>
+
+					<description><![CDATA[BeatPad is a simple, minimalist drum pad. Made for a challenge from FCC Front-end course.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="640" class="elementor elementor-640">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-3bd61d3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3bd61d3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9bcb9f4" data-id="9bcb9f4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7ea93db elementor-widget elementor-widget-heading" data-id="7ea93db" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="/wordpress/#projects"><i class="fa-solid fa-caret-left"></i> Back</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8cad89b elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8cad89b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d92d11" data-id="2d92d11" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-3bd34b3 elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3bd34b3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wide">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-35941a4" data-id="35941a4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3536ca7 elementor-widget elementor-widget-heading" data-id="3536ca7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">BeatPad</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8ca5451 elementor-widget elementor-widget-heading" data-id="8ca5451" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Node.js | React | Tailwindcss</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-000b537 elementor-widget elementor-widget-text-editor" data-id="000b537" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><b>BeatPad</b> is a simple, minimalist drum pad. Made for a challenge from FCC Front-end course.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e634a0d elementor-widget elementor-widget-text-editor" data-id="e634a0d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Check this project here:
+<div class="d-flex flex-column p-2"><a href="https://druloloy.github.io/BeatPad" target="_blank" rel="noopener"><i class="fa-solid fa-globe"></i> Live</a>
+<a href="https://github.com/druloloy/BeatPad" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a></div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-ad67449" data-id="ad67449" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-bae1ede elementor-widget elementor-widget-image" data-id="bae1ede" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-01-22-52-BeatPad.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="beatpad-project" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6Mzg2LCJ1cmwiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3dvcmRwcmVzc1wvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMlwvMDdcL1NjcmVlbnNob3QtMjAyMi0wNy0xMS1hdC0wMS0yMi01Mi1CZWF0UGFkLnBuZyJ9">
+							<img decoding="async" width="800" height="381" src="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-01-22-52-BeatPad-1024x488.png" class="attachment-large size-large wp-image-386" alt="beatpad-project" srcset="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-01-22-52-BeatPad-1024x488.png 1024w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-01-22-52-BeatPad-300x143.png 300w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-01-22-52-BeatPad-768x366.png 768w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-01-22-52-BeatPad.png 1366w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/beatpad/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bacon</title>
+		<link>/bacon/</link>
+					<comments>/bacon/#respond</comments>
+		
+		<dc:creator><![CDATA[druloloy]]></dc:creator>
+		<pubDate>Sat, 27 May 2023 18:03:47 +0000</pubDate>
+				<category><![CDATA[projects]]></category>
+		<guid isPermaLink="false">/?p=635</guid>
+
+					<description><![CDATA[Bacon is a web application that lets you record and track your earnings and expenditures. The problem that it is trying to solve is the lack of control and failure to monitor expenses especially to a student like me. Bacon is my first personal project using MERN stack.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="635" class="elementor elementor-635">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-9689726 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9689726" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a5f4389" data-id="a5f4389" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-55d83ac elementor-widget elementor-widget-heading" data-id="55d83ac" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="/wordpress/#projects"><i class="fa-solid fa-caret-left"></i> Back</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-acc87c1 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="acc87c1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9a04f38" data-id="9a04f38" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-62df88a elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="62df88a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-wide">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-18add1c" data-id="18add1c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c69f017 elementor-widget elementor-widget-heading" data-id="c69f017" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bacon</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e558c87 elementor-widget elementor-widget-heading" data-id="e558c87" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h6 class="elementor-heading-title elementor-size-default">Node.js | React | Express | Mongo DB | Bootstrap 5</h6>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1c76e67 elementor-widget elementor-widget-text-editor" data-id="1c76e67" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<b>Bacon</b> is a web application that lets you record and track your earnings and expenditures. The problem that it is trying to solve is the lack of control and failure to monitor expenses especially to a student like me. Bacon is my first personal project using MERN stack.						</div>
+				</div>
+				<div class="elementor-element elementor-element-44b3617 elementor-widget elementor-widget-text-editor" data-id="44b3617" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Check this project here:
+<div class="d-flex flex-column p-2"><a href="https://dru-baconapp.herokuapp.com/" target="_blank" rel="noopener"><i class="fa-solid fa-globe"></i> Live</a>
+<a href="https://github.com/druloloy/dru-baconapp" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a></div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-inner-column elementor-element elementor-element-a4be97f" data-id="a4be97f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fb78b03 elementor-widget elementor-widget-image" data-id="fb78b03" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-04-00-Bacon.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="Bacon" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MzkyLCJ1cmwiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3dvcmRwcmVzc1wvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMlwvMDdcL1NjcmVlbnNob3QtMjAyMi0wNy0xMS1hdC0yMi0wNC0wMC1CYWNvbi5wbmcifQ%3D%3D">
+							<img decoding="async" width="800" height="381" src="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-04-00-Bacon-1024x488.png" class="attachment-large size-large wp-image-392" alt="" srcset="/wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-04-00-Bacon-1024x488.png 1024w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-04-00-Bacon-300x143.png 300w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-04-00-Bacon-768x366.png 768w, /wp-content/uploads/2022/07/Screenshot-2022-07-11-at-22-04-00-Bacon.png 1366w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/bacon/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
